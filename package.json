@@ -9,9 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
+    "@prisma/client": "^5.4.2",
+    "firebase": "^10.5.0",
+    "form-data": "^4.0.0",
+    "icons": "^1.0.0",
+    "next": "13.5.5",
+    "next-auth": "^4.23.2",
+    "next-themes": "^0.2.1",
+    "prisma": "^5.4.2",
+    "react": "^18.2.0",
     "react-dom": "^18",
-    "next": "13.5.5"
+    "react-hooks": "^1.0.1",
+    "react-icons": "^4.11.0",
+    "react-loader-spinner": "^5.4.5"
   },
   "devDependencies": {
     "typescript": "^5",
@@ -19,9 +29,10 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10",
-    "postcss": "^8",
-    "tailwindcss": "^3",
     "eslint": "^8",
-    "eslint-config-next": "13.5.5"
+    "eslint-config-next": "13.5.5",
+    "postcss": "^8",
+    "tailwindCss": "^3"
+    
   }
 }
